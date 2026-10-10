@@ -11,7 +11,7 @@ tags:
 - Graphs
 - Flask
 - Python
-repoUrl: https://github.com/AtharvaParanjpe/MDSR-Project
+repoUrl: https://github.com/AtharvaParanjpe/MDSR-Project/tree/master
 ---
 
 ## The algorithm
@@ -28,3 +28,11 @@ Graph peeling finds the dense core of a graph by repeatedly removing its weakest
 - **A Flask web app** that takes a graph and a value of *k*, then shows the input and the peeled output, rendered with Plotly and NetworkX.
 
 This was the project for Massive Data Storage and Retrieval at Rutgers.
+
+## In the repo
+
+- [`graphPeel.py`](https://github.com/AtharvaParanjpe/MDSR-Project/blob/master/graphPeel.py): the PySpark peeling algorithm.
+- [`app.py`](https://github.com/AtharvaParanjpe/MDSR-Project/blob/master/app.py): the Flask server.
+- [`templates/ourPage.html`](https://github.com/AtharvaParanjpe/MDSR-Project/blob/master/templates/ourPage.html): the page that shows the input and output graphs.
+- [`sampleInputOutput/`](https://github.com/AtharvaParanjpe/MDSR-Project/tree/master/sampleInputOutput): example runs.
+- [README](https://github.com/AtharvaParanjpe/MDSR-Project#readme): how to run it locally.

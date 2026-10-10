@@ -10,7 +10,7 @@ tags:
 - NLP
 - Deep learning
 - Python
-repoUrl: https://github.com/AtharvaParanjpe/NLPProject
+repoUrl: https://github.com/AtharvaParanjpe/NLPProject/tree/main/Final
 ---
 
 ## The task
@@ -29,4 +29,12 @@ Humor depends on context, surprise and world knowledge, which makes this hard fo
 - Dense models for the second subtask.
 - A **zero-shot** attempt that uses no task-specific training at all.
 
-A [second repository](https://github.com/AtharvaParanjpe/NLP_project) holds the task dataset.
+A [second repository](https://github.com/AtharvaParanjpe/NLP_project/tree/main/NLP%20Project/semeval-2020-task-7-dataset) holds the task dataset, with its own data preparation and model scripts.
+
+## In the repo
+
+- [`Final/`](https://github.com/AtharvaParanjpe/NLPProject/tree/main/Final): all the code for both subtasks.
+- Baselines: [`task1baseline.py`](https://github.com/AtharvaParanjpe/NLPProject/blob/main/Final/task1baseline.py) (humor score) and [`task2baseline.py`](https://github.com/AtharvaParanjpe/NLPProject/blob/main/Final/task2baseline.py) (funnier of two edits).
+- Siamese networks: [on the training data](https://github.com/AtharvaParanjpe/NLPProject/blob/main/Final/Siamese_on_data_1_Task1.py) and [with the dev data merged in](https://github.com/AtharvaParanjpe/NLPProject/blob/main/Final/Siamese_with_merged_dev_data.py).
+- [`zeroShot.py`](https://github.com/AtharvaParanjpe/NLPProject/blob/main/Final/zeroShot.py): the zero-shot attempt.
+- [`subtask-1/`](https://github.com/AtharvaParanjpe/NLPProject/tree/main/Final/subtask-1) and [`subtask-2/`](https://github.com/AtharvaParanjpe/NLPProject/tree/main/Final/subtask-2): the data splits for each subtask.

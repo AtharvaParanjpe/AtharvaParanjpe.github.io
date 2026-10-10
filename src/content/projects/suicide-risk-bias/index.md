@@ -11,7 +11,7 @@ tags:
 - Fairness
 - Python
 - scikit-learn
-repoUrl: https://github.com/AtharvaParanjpe/GenderBias
+repoUrl: https://github.com/AtharvaParanjpe/GenderBias/tree/master
 ---
 
 ## The question
@@ -33,3 +33,11 @@ I worked on this as a research assistant at the Rutgers School of Social Work.
 To test for gender bias, I split the data into male and female patients and balanced the two groups with SMOTE. I then trained three models on each group: linear regression, logistic regression and a support vector machine. For each one I compared the error profile (true and false positive and negative rates, accuracy and AUC) between the groups.
 
 A model can look accurate overall while failing one group far more often than another. Comparing the error rates per group is how you catch that.
+
+## In the repo
+
+- [README](https://github.com/AtharvaParanjpe/GenderBias#readme): the full write-up of the data preparation, models and metrics.
+- [`buildDataset.py`](https://github.com/AtharvaParanjpe/GenderBias/blob/master/buildDataset.py): filters visits and builds the positive and negative examples.
+- [`dataBalancer.py`](https://github.com/AtharvaParanjpe/GenderBias/blob/master/dataBalancer.py): balances the male and female groups.
+- [`model.py`](https://github.com/AtharvaParanjpe/GenderBias/blob/master/model.py) and [`comparisonModel.py`](https://github.com/AtharvaParanjpe/GenderBias/blob/master/comparisonModel.py): train the three models and compare their error rates per group.
+- [`Statistical Graphs/`](https://github.com/AtharvaParanjpe/GenderBias/tree/master/Statistical%20Graphs) and [`Comparison Images/`](https://github.com/AtharvaParanjpe/GenderBias/tree/master/Comparison%20Images): the resulting charts.

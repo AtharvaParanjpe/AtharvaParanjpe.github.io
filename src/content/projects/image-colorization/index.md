@@ -8,7 +8,13 @@ tags:
 - Neural networks
 - NumPy
 - Python
-repoUrl: https://github.com/AtharvaParanjpe/Image-Colorization
+repoUrl: https://github.com/AtharvaParanjpe/Image-Colorization/blob/master/main.py
 ---
 
 Instead of reaching for TensorFlow or PyTorch, I built the network by hand in NumPy: weights and biases for each color channel, tanh activations, and backpropagation written out manually. Building it this way forces you to understand every gradient.
+
+## In the repo
+
+- [`main.py`](https://github.com/AtharvaParanjpe/Image-Colorization/blob/master/main.py): the network: weights, the tanh activation and backpropagation.
+- [`Basic.py`](https://github.com/AtharvaParanjpe/Image-Colorization/blob/master/Basic.py)
+- [`Test.py`](https://github.com/AtharvaParanjpe/Image-Colorization/blob/master/Test.py) and [`Tests.py`](https://github.com/AtharvaParanjpe/Image-Colorization/blob/master/Tests.py)
